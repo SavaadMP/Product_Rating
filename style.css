@@ -1,0 +1,70 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@500;600;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Inter", sans-serif;
+  background: #e2e8f0;
+}
+
+main .product_card {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: #ffffff;
+  padding: 20px;
+}
+main .product_card .title h1 {
+  color: #475569;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+main .product_card .container {
+  display: flex;
+}
+main .product_card .container .box {
+  width: 200px;
+  height: 200px;
+  background: #22c55e;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  color: #ffffff;
+  margin-right: 20px;
+}
+main .product_card .container .box h1 {
+  font-size: 62px;
+  margin-bottom: 10px;
+}
+main .product_card .container .box p {
+  font-weight: 600;
+}
+main .product_card .container .graph {
+  margin-top: 10px;
+}
+main .product_card .container .graph .label {
+  margin-bottom: 15px;
+}
+main .product_card .container .graph .label p {
+  color: #475569;
+  font-weight: 400;
+}
+main .product_card .container .graph .label .progress {
+  margin-top: 5px;
+  position: relative;
+}
+main .product_card .container .graph .label .progress .bar {
+  width: 600px;
+  background: #e2e8f0;
+  height: 12px;
+}
+main .product_card .container .graph .label .progress .bar_active {
+  position: absolute;
+  background: #22c55e;
+  height: 12px;
+}/*# sourceMappingURL=style.css.map */
